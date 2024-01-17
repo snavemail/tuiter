@@ -1,0 +1,50 @@
+.ttr-tuit-avatar-logo {
+  width: 48px;
+}
+
+.ttr-tuit-image {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.ttr-tuit {
+  max-width: 550px;
+  width: 100%;
+  display: flex;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #aaaaaa;
+  border-top: none;
+  padding: 10px;
+}
+
+.ttr-tuit:first-child {
+  border-top: 1px solid #aaaaaa;
+}
+
+.ttr-column-left {
+  width: 60px;
+}
+
+.ttr-column-right {
+  max-width: 490px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.ttr-tuit-heading {
+  margin-bottom: 10px;
+}
+
+.ttr-tuit-image-wrapper {
+  position: relative;
+}
+
+.ttr-tuit-image-overlay {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 2em;
+  color: white;
+  font-weight: bolder;
+}
