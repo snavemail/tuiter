@@ -1,20 +1,43 @@
 <html>
   <head>
+    <link rel="stylesheet" href="/vendors/fontawesome/css/all.css" />
     <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="whats-happening.css" />
   </head>
   <body>
     <div class="ttr-whats-happening">
-      <input type="text" placeholder="Search Tuiter" />
-      <h2>What's Happening</h2>
-      <img src="/logo192.png" alt="react" width="50px" align="right" />
-      <h3>Space - 4 hours ago</h3>
-      Tesla Cybertrucks drive across Mars after a 6 month journey to the red planet.
-      <h4>1234K likes</h4>
-      <img src="/logo192.png" width="50px" align="right" />
-      <h3>Web - 5 hours ago</h3>
-      React.js is a JavaScript library for building dynamic Single Page Applications (SPAs)
-      <h4>2345K likes</h4>
+      <div class="ttr-search">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Search Tuiter" />
+      </div>
+
+      <div class="ttr-gray-background">
+        <h2>What's Happening</h2>
+        <div class="ttr-whats-happening-tuit">
+          <div class="ttr-column-left">
+            <h3>Space - 4 hours ago</h3>
+            <div class="ttr-tuit-body">
+              Tesla Cybertrucks drive across Mars after a 6 month journey to the red planet.
+            </div>
+            <h4>1234K likes</h4>
+          </div>
+          <div class="ttr-column-right">
+            <img src="/nasa-logo.jpg" class="ttr-user-logo" />
+          </div>
+        </div>
+        <div class="ttr-whats-happening-tuit">
+          <div class="ttr-column-left">
+            <h3>Web - 5 hours ago</h3>
+            <div class="ttr-tuit-body">
+              React.js is a JavaScript library for building dynamic Single Page Applications (SPAs)
+            </div>
+            <h4>2345K likes</h4>
+          </div>
+          <div class="ttr-column-right">
+            <img src="/logo192.png" class="ttr-user-logo" />
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>

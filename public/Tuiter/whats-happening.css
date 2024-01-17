@@ -14,6 +14,49 @@
   color: gray;
 }
 
+.ttr-whats-happening h4 {
+  margin-top: 10px;
+}
+
 .ttr-whats-happening .ttr-post {
   font-weight: bold;
+}
+
+.ttr-whats-happening-tuit {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.ttr-whats-happening-tuit .ttr-column-right {
+  width: 70px;
+  padding-left: 10px;
+}
+
+.ttr-whats-happening-tuit .ttr-user-logo {
+  width: 68px;
+  border-radius: 15px;
+}
+
+.ttr-whats-happening .ttr-gray-background {
+  background-color: #eeeeee;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.ttr-whats-happening .ttr-search {
+  position: relative;
+}
+.ttr-whats-happening .ttr-search .fas.fa-search {
+  position: absolute;
+  top: 15px;
+  left: 17px;
+}
+.ttr-whats-happening .ttr-search input {
+  background-color: #eeeeee;
+  height: 40px;
+  padding-left: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
 }
