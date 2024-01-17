@@ -1,0 +1,55 @@
+body {
+  font: 14px Arial;
+}
+
+.ttr-navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.ttr-navigation > li {
+  margin-bottom: 15px;
+  padding: 5px;
+  white-space: nowrap;
+  font-size: 1.6em;
+  text-align: left;
+  cursor: pointer;
+}
+
+.ttr-navigation .ttr-active {
+  font-weight: bold;
+}
+
+.ttr-navigation > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.ttr-navigation > li > a > i {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+}
+
+.ttr-navigation > li.ttr-button {
+  height: 40px;
+  background-color: rgb(29, 155, 240);
+  font-weight: bold;
+  text-align: center !important;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+
+.ttr-navigation > li > .ttr-button > a {
+  color: white;
+  text-decoration: none;
+}
+
+.ttr-navigation > li.ttr-button > a {
+  color: white;
+  position: relative;
+  top: 5px;
+}
