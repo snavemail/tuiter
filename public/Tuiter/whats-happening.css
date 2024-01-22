@@ -22,14 +22,14 @@
   font-weight: bold;
 }
 
+.ttr-column-right {
+  width: 70px;
+  padding-left: 10px;
+}
+
 .ttr-whats-happening-tuit {
   display: flex;
   margin-bottom: 20px;
-}
-
-.ttr-whats-happening-tuit .ttr-column-right {
-  width: 70px;
-  padding-left: 10px;
 }
 
 .ttr-whats-happening-tuit .ttr-user-logo {
@@ -59,4 +59,8 @@
   width: 100%;
   border: none;
   border-radius: 20px;
+}
+
+.ttr-tuit-body {
+  font-weight: bold;
 }
